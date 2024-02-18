@@ -25,7 +25,7 @@ public class Hike{
      * @return the name of the hike
      */
     public String getName(){
-        return name;
+        return this.name;
     }
 
     /**
@@ -34,7 +34,7 @@ public class Hike{
      * @return the length of the hike in miles
      */
     public double getMiles(){
-        return miles;
+        return this.miles;
     }
 
     /**
@@ -43,7 +43,7 @@ public class Hike{
      * @return the elevation gain in feet
      */
     public double getElevation(){
-        return elevation;
+        return this.elevation;
     }
 
     /**
@@ -78,7 +78,7 @@ public class Hike{
      * @return Describes the name, miles, and elevation of the hike
      */
     public String toString() {
-        return name + " is " + miles + " miles and gains " + elevation + " feet."; 
+        return this.name + " is " + this.miles + " miles and gains " + this.elevation + " feet."; 
     }
 
 }

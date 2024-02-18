@@ -7,7 +7,7 @@ public class MediaLib{
     private Book book;
 
     public void addBook(Book b){
-        book = b;
+        this.book = b;
     }
 
     public String toString() {

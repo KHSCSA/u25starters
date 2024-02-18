@@ -10,38 +10,38 @@ public class Book{
 
     /*** Constructor ****/
     public Book(String t, String a){
-        title = t;
-        author = a;
-        rating = 0;
+        this.title = t;
+        this.author = a;
+        this.rating = 0;
     }
 
     /*** Accessor methods ***/
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     public String getAuthor() {
-        return author;
+        return this.author;
     }
 
     public int getRating() {
-        return rating;
+        return this.rating;
     }
 
     public String toString() {
-        String info = "\"" + title + "\", written by " + author;
-        if (rating != 0) { 
-            info += ", rating is " + rating;
+        String info = "\"" + this.title + "\", written by " + this.author;
+        if (this.rating != 0) { 
+            info += ", rating is " + this.rating;
         }
         return info;
     }
 
     /*** Mutator methods ***/
     public void setTitle(String t) {
-        title = t;
+        this.title = t;
     }
 
     public void setAuthor(String a) {
-        author = a;
+        this.author = a;
     }
 }
